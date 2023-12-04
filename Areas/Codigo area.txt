@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        Areas
+<form action="" method="POST">
+Nombre Área: <input type="text" name="area">
+Código Área: <input type="text" name="codigo_area">
+Jefe Área: <input type="text" name="jefe">
+<button id="guardar" type="button">Guardar</button>
+</form>
+<table class="default">
+    <tr>
+      <th>Código Área</th>
+      <th>Nombre Área</th>
+      <th>Jefe Área</th>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Contabilidad</td>
+      <td>Katherine Contreras</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+      <!--JavaScript at end of body for optimized loading-->
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+  </html>
